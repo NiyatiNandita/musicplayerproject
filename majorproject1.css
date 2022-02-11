@@ -1,4 +1,6 @@
 body{
+	height: 100vh;
+	overflow: hidden;
 	margin: 0px;
 }
 
@@ -51,12 +53,23 @@ body{
 	/*margin-left: 100px;
 	margin-top: 25px;*/
 }
+
+
 #search-icon{
-	height: 50%;
-	width: 30%;
+	height: 60%;
+	width: 40%;
 	/*color: white;*/
 	display: flex;
-	justify-content: space-between ;
+	/*justify-content: space-between 1px ;*/
+	/*justify-content: space-around;*/
+	margin-top: 20px;
+	margin-left: 50px;
+
+}
+#search-icon ion-icon{
+	height: 50%;
+	width: 30%;
+	color: white
 
 }
 #search-bar{
@@ -68,15 +81,14 @@ body{
 	/*margin-left: 200px;
 	margin-top: 20px;*/
 }
-#notif{
-	height: 40px;
-	width: 200px;
+ion-icon{
+	height: 10%;
+	width: 10%;
+	color: white;}
 
-	color: white;
-}
 #user-img{
 	height: 40px;
-	width: 50px;
+	width: 40px;
 	padding-right: 10px;
 	margin-right: 20px;
 	/*display: flex;
@@ -87,4 +99,60 @@ body{
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
+}
+
+
+/*FOOTER*/
+
+.play-bar{
+	/*height: 20%;*/
+	/*display: block;*/
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	/*align-content: space-between;*/
+	/*align-items: center;*/
+	/*flex-wrap: wrap;*/
+	/*justify-content: space-between;*/
+	/*justify-content: space-around;*/
+	padding: 0px 10px;
+}
+#playing-song-img{
+	height: 50px;
+	width: 100px;
+	padding: 12px;
+	margin-left: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+	
+#playing-song-img img{
+	height: 100%;
+	width: 100%;
+	
+}
+#playing-song-name{
+	height: 30px;
+	width: 80px;
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+#playing-song-name > ion-icon{
+	height: 50%;
+	width: 50%;
+	color: white;
+
+}
+#so{
+	height: 20px;
+	width: 60px;
+	font-size: 10px;
+	color: grey;
 }

@@ -5,9 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Music Player</title>
 	<link rel="stylesheet" type="text/css" href="majorproject1.css">
-	<script src="https://kit.fontawesome.com/a193cceeae.js" crossorigin="anonymous"></script>
+	<!-- <script src="https://kit.fontawesome.com/a193cceeae.js" crossorigin="anonymous"></script> -->
 </head>
 <body>
+	<!-- <ion-icon name="heart-outline"></ion-icon>
+			<ion-icon name="ban-outline"></ion-icon> -->
+	<!-- <ion-icon name="search-outline"></ion-icon> -->
 	<nav class="nav-bar">
 		
 			<div id="logo-img">
@@ -17,16 +20,18 @@
 			</div>
 				
 				
-				<div id="fav"><i>Favourites</i>
+				<div id="fav"><i>Favorites</i>
 				</div>
+
 				
-				<div id="search-icon"><i class="fa-solid fa-magnifying-glass"></i>
-				<input id="search-bar" type="text" name="text"  placeholder="search">
-				<div id="notif"><i class="fa-solid fa-bell"></i></div>
+				<div id="search-icon"><!-- <i class="fa-solid fa-magnifying-glass"></i> --><ion-icon name="search-outline" ></ion-icon>
+				<input id="search-bar" type="text" name="text" placeholder="search">
+				
+					<ion-icon name="notifications-outline"></ion-icon></div>
 				<div id="user-img">
 					<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png">
 				</div>
-				</div>
+				
 				
 
 
@@ -34,7 +39,37 @@
 		
 	</nav>
 	<main></main>
-	<footer></footer>
 
+
+
+
+
+
+
+	<footer class="play-bar">
+
+		<div id="playing-song-img">
+			<!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+			<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Imagine_Dragons_Next_to_Me.jpg/220px-Imagine_Dragons_Next_to_Me.jpg">
+
+			<div id="playing-song-name">Imagine 
+				<div id="so">John Lennon</div></div>
+
+				<ion-icon name="heart-outline"></ion-icon>
+
+			
+		</div>
+		
+
+
+	</footer>
+
+
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
