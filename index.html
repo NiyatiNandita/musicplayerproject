@@ -5,56 +5,699 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Music Player</title>
     <link rel="stylesheet" type="text/css" href="majorproject1.css" />
+    <link rel="stylesheet" href="WholeStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- <script src="https://kit.fontawesome.com/a193cceeae.js" crossorigin="anonymous"></script> -->
   </head>
   <body>
     <!-- <ion-icon name="heart-outline"></ion-icon>
 			<ion-icon name="ban-outline"></ion-icon> -->
     <!-- <ion-icon name="search-outline"></ion-icon> -->
-    <nav class="nav-bar">
-      <div id="logo-img">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5bMqY48P4QpwLi89Q9hFKB0kEYKwAElhUtw&usqp=CAU"
-        />
+    <div class="root">
+      <nav class="nav-bar">
+        <div id="logo-img">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5bMqY48P4QpwLi89Q9hFKB0kEYKwAElhUtw&usqp=CAU"
+          />
 
-        <div id="logo-name">Music <strong>Studio</strong></div>
-      </div>
-
-      <div id="fav"><i>Favorites</i></div>
-
-      <div id="search-icon">
-        <!-- <i class="fa-solid fa-magnifying-glass"></i> --><ion-icon
-          name="search-outline"
-        ></ion-icon>
-        <input id="search-bar" type="text" name="text" placeholder="search" />
-
-        <ion-icon name="notifications-outline"></ion-icon>
-      </div>
-      <div id="user-img">
-        <img
-          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"
-        />
-      </div>
-    </nav>
-    <main></main>
-
-    <footer class="play-bar">
-      <div id="playing-song-img">
-        <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
-        <img
-          src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Imagine_Dragons_Next_to_Me.jpg/220px-Imagine_Dragons_Next_to_Me.jpg"
-        />
-
-        <div id="playing-song-name">
-          Imagine
-
-          <div id="so">John Lennon</div>
+          <div id="logo-name">Music <strong>Studio</strong></div>
         </div>
-      </div>
-      <div id="reaction">
-        <ion-icon name="heart-outline"></ion-icon>
-      </div>
-    </footer>
+
+        <div id="fav"><i>Favorites</i></div>
+
+        <div id="search-icon">
+          <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+          <input id="search-bar" type="text" name="text" placeholder="search" />
+          <ion-icon name="search-outline"></ion-icon>
+        </div>
+        <ion-icon
+          name="notifications-outline"
+          class="notification-bell"
+        ></ion-icon>
+        <div id="user-img">
+          <img
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"
+          />
+        </div>
+      </nav>
+
+      <main class="main">
+        <div class="main-1">
+          <div class="v1 animated bounce">
+            <img
+              src="https://www.24-7pressrelease.com/assets/attachments/044/press_release_distribution_0444525_119537.jpg"
+            />
+            <img
+              src="https://www.rollingstone.com/wp-content/uploads/2021/09/RS_500_Great_Songs_1800x1200.jpg"
+            />
+            <img
+              src="https://imgcache.joox.com/music/joox/photo_mm_my/toplist_300/5/f/a9e525ed1ad557a0bf7315dfd746e95f.jpg"
+            />
+          </div>
+
+          <div class="v2">
+            <div class="subtitle-text">Latest Release</div>
+
+            <div class="latest-releases">
+              <div class="v21">
+                <img
+                  src="https://images.genius.com/188d0c5ab9fc7c8a2581762619d5b7db.1000x1000x1.png"
+                />
+
+                <div class="v21-name">
+                  It will be okay
+                  <!--   <ion-icon name="menu-outline"></ion-icon>  -->
+                  <div class="ro">Shawn Mendes <span>3:45</span></div>
+                </div>
+                <span><ion-icon name="menu-outline"></ion-icon> </span>
+              </div>
+
+              <div class="v21">
+                <img
+                  src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/146301004/original/265af19662a8925f79d1e3d2daff3c5c8277ee3c/create-album-covers-and-song-covers-for-cheap.jpg"
+                />
+
+                <div class="v21-name">
+                  It will be okay
+                  <!--   <ion-icon name="menu-outline"></ion-icon>  -->
+                  <div class="ro">Shawn Mendes<span>3:45</span></div>
+                </div>
+                <span><ion-icon name="menu-outline"></ion-icon> </span>
+              </div>
+
+              <div class="v21">
+                <img
+                  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=630/uploads/users/1631/posts/34195/image/Pop-Rock%20Album%20Cover%20Template%20copy.jpg"
+                />
+
+                <div class="v21-name">
+                  It will be okay
+                  <!--   <ion-icon name="menu-outline"></ion-icon>  -->
+                  <div class="ro">Shawn Mendes <span>3:45</span></div>
+                </div>
+                <span><ion-icon name="menu-outline"></ion-icon> </span>
+              </div>
+              <div class="v21">
+                <img
+                  src="https://content.thriveglobal.com/wp-content/uploads/2019/01/GettyImages-463874181.jpg"
+                />
+
+                <div class="v21-name">
+                  It will be okay
+                  <!--   <ion-icon name="menu-outline"></ion-icon>  -->
+                  <div class="ro">Shawn Mendes <span>3:45</span></div>
+                </div>
+                <span><ion-icon name="menu-outline"></ion-icon> </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="v3">
+            <div class="subtitle-text animated bounce">Popular Artists</div>
+            <div class="popular-artists">
+              <div class="v31">
+                <img
+                  src="https://i.scdn.co/image/ab6761610000e5eb12a2ef08d00dd7451a6dbed6"
+                />
+                <span class="v3-name">Ed Sheeran</span>
+              </div>
+
+              <div class="v31">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/2/26/Shawn_Mendes_teaches_you_Canadian_slangs_02.jpg"
+                />
+                <span class="v3-name">Shawn Mendes</span>
+              </div>
+              <div class="v31">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BOTgwMjkxNzg1NF5BMl5BanBnXkFtZTgwNzQ4MTE0NDE@._V1_.jpg"
+                />
+                <span class="v3-name">Ariana Grande</span>
+              </div>
+              <div class="v31">
+                <img
+                  src="https://media.gq-magazine.co.uk/photos/5eaab3bfb7ebbc00082c8369/3:4/w_810,h_1080,c_limit/20200430-Doja-Cat.jpg"
+                />
+                <span class="v3-name">Doja Cat</span>
+              </div>
+
+              <div class="v31">
+                <img
+                  src="https://media.gq.com/photos/56bcb218cdf2db6945d2ef93/4:3/w_2000,h_1500,c_limit/bieber-coverstory-square.jpg"
+                />
+                <span class="v3-name">Justin Beiber</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="v4">
+            <div id="v41">
+              <img
+                src="https://radiofidelity.com/wp-content/uploads/2021/09/When-Does-Christmas-Music-Start-On-The-Radio-2-1440x900.png"
+              />
+            </div>
+            <div class="v42">
+              <img
+                src="https://thegraduatewife.files.wordpress.com/2013/09/mandy-pic.jpg"
+              />
+            </div>
+            <div class="v42">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfazW-jTN7mxgq3yU82bi7AL0L4KxcRiCG6A&usqp=CAU"
+              />
+            </div>
+            <div class="v42">
+              <img
+                src="https://previews.123rf.com/images/enterline/enterline1601/enterline160101270/50836244-the-word-workout-written-in-dirty-vintage-letterpress-type-on-a-aged-wooden-background-.jpg"
+              />
+            </div>
+            <div class="v42">
+              <img
+                src="https://media.istockphoto.com/vectors/red-vintage-radio-vector-illustration-vector-id672250580"
+              />
+            </div>
+            <div class="v42">
+              <img
+                src="https://brainpickers.co.uk/img/game-icons/pop-song-challenge.png"
+              />
+            </div>
+          </div>
+
+          <div class="v5">
+            <img
+              src="https://media.istockphoto.com/photos/nightclub-party-with-confetti-picture-id661151102?k=20&m=661151102&s=170667a&w=0&h=nk7WDp4672FrHXxFdQ6fBkjV_ZSXoUPWfU2C520a-8g="
+            />
+            <img
+              src="https://uproxx.com/wp-content/uploads/2018/04/electronic-grid-uproxx-2.jpg"
+            />
+            <img src="https://i.ytimg.com/vi/76Wygb_Aqz0/maxresdefault.jpg" />
+          </div>
+
+          <div class="v6">
+            <div class="subtitle-text">Latest English</div>
+            <div class="latest-english">
+              <div class="v61">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYHR2vCkx_OUWq-YJ33auNfA7JRVhM0qJM53TT2zFZ7ZBa2uqWvV0JzmmY59OxAZShY8w&usqp=CAU"
+                />
+                <span class="v6-name">Toxic</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+
+              <div class="v61">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Charlie_Puth_-_Light_Switch.png/220px-Charlie_Puth_-_Light_Switch.png"
+                />
+                <span class="v6-name">Light Switch</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+              <div class="v61">
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b273c82522acc43bf2d4999ac7e2"
+                />
+                <span class="v6-name">Nightcore</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+              <div class="v61">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/9/94/Hole_-_Celebrity_Skin_%28album%29.png"
+                />
+                <span class="v6-name">Celebrity Skin</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+
+              <div class="v61">
+                <img
+                  src="https://abduzeedo.com/sites/default/files/originals/0ec5c569226647.5b79b483096c1.jpg"
+                />
+                <span class="v6-name">Ordinary Life</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+
+              <div class="v61">
+                <img
+                  src="https://images-platform.99static.com/IYueB6Gc5h16WyX9x-ySBuEQFgI=/0x0:1477x1477/500x500/top/smart/99designs-contests-attachments/97/97924/attachment_97924452"
+                />
+                <span class="v6-name">Higher</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+              <div class="v61">
+                <img
+                  src="https://images.theconversation.com/files/258026/original/file-20190208-174861-nms2kt.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop"
+                />
+                <span class="v6-name">Bussin</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="v6">
+            <div class="subtitle-text">Latest Hindi</div>
+            <div class="latest-english">
+              <div class="v61">
+                <img
+                  src="https://i.pinimg.com/736x/58/0b/6a/580b6aca190ffd0aa9b2e0970a054947.jpg"
+                />
+                <span class="v6-name">Doobey</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+
+              <div class="v61">
+                <img
+                  src="https://i.pinimg.com/736x/3e/b7/89/3eb78925247474319a576e3a1d625155.jpg"
+                />
+                <span class="v6-name">Liggi</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+              <div class="v61">
+                <img
+                  src="https://fsa.zobj.net/crop.php?r=pQAH3recw1t5AedleSkOyxsXyEc4Kh5kELZn7pfuWyqYAIDoOPG3x7Qg-3tlfjqzEc0jC1VE6_WuewL9Nz9y7fl_vvkDrj3h_LIW3duJ7ZHqYNayBBf5I0CVsOiWS6wsRZE0PXUyGNDv_i1v7xBa6ndVm0_J9a42ucrsSqZsoCkOTUH-KtcNtRrXGnk"
+                />
+                <span class="v6-name">Main Chala</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+              <div class="v61">
+                <img
+                  src="https://i1.sndcdn.com/artworks-GcfPSyEk854Tog9W-Ab39gw-t500x500.jpg"
+                />
+                <span class="v6-name">Baarishein</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+
+              <div class="v61">
+                <img
+                  src="https://lastfm.freetls.fastly.net/i/u/300x300/1408ba9f5554c3e752d72070129a4251.jpg"
+                />
+                <span class="v6-name">Alag Aasman</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+
+              <div class="v61">
+                <img
+                  src="https://i.pinimg.com/564x/49/7f/62/497f623fbb618490577656ef557f69ee.jpg"
+                />
+                <span class="v6-name">Baha le jaa</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+              <div class="v61">
+                <img
+                  src="https://i.pinimg.com/236x/c8/4d/34/c84d34d554b614f1526e1e79de9e4b47.jpg"
+                />
+                <span class="v6-name">Dua Hai</span>
+                <span class="v6-date">AUG 11,2017</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-2">
+          <div id="queue-dropdown">
+            <div class="subtitle-text">Queue</div>
+            <form>
+              <div id="dropdown-1"><option>Queue</option></div>
+              <select name="queue_selected">
+                <option>queue</option>
+                <option>My Playlist</option>
+                <option>Favorite Songs</option>
+              </select>
+            </form>
+          </div>
+
+          <div class="queue">
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">01</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/dlj7qr05cfjsknaglrhf/covers-better-original-jimi-hendrix"
+                />
+
+                <div id="queue-song-name">
+                  Mirage
+                  <div id="qo">Else</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">02</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://i.tribune.com.pk/media/images/647803-music-1387469249/647803-music-1387469249.jpg"
+                />
+
+                <div id="queue-song-name">
+                  Savage
+                  <div id="qo">Rose Lowe</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">03</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa0KsZXs5Cj1VJgAr3W2w4Xkd80kr6fwirNPOX526JpRp5wXLbldCn82kQxn1YL9OmjXs&usqp=CAU"
+                />
+
+                <div id="queue-song-name">
+                  Heya
+                  <div id="qo">Flume</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">
+                  <ion-icon name="stats-chart"></ion-icon>
+                </div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Imagine_Dragons_Next_to_Me.jpg/220px-Imagine_Dragons_Next_to_Me.jpg"
+                />
+
+                <div id="queue-song-name">
+                  Imagine
+                  <div id="qo">John Lennon</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">01</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/dlj7qr05cfjsknaglrhf/covers-better-original-jimi-hendrix"
+                />
+
+                <div id="queue-song-name">
+                  Mirage
+                  <div id="qo">Else</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">02</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://i.tribune.com.pk/media/images/647803-music-1387469249/647803-music-1387469249.jpg"
+                />
+
+                <div id="queue-song-name">
+                  Savage
+                  <div id="qo">Rose Lowe</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">03</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa0KsZXs5Cj1VJgAr3W2w4Xkd80kr6fwirNPOX526JpRp5wXLbldCn82kQxn1YL9OmjXs&usqp=CAU"
+                />
+
+                <div id="queue-song-name">
+                  Heya
+                  <div id="qo">Flume</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">
+                  <ion-icon name="stats-chart"></ion-icon>
+                </div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Imagine_Dragons_Next_to_Me.jpg/220px-Imagine_Dragons_Next_to_Me.jpg"
+                />
+
+                <div id="queue-song-name">
+                  Imagine
+                  <div id="qo">John Lennon</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">01</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/dlj7qr05cfjsknaglrhf/covers-better-original-jimi-hendrix"
+                />
+
+                <div id="queue-song-name">
+                  Mirage
+                  <div id="qo">Else</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">02</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://i.tribune.com.pk/media/images/647803-music-1387469249/647803-music-1387469249.jpg"
+                />
+
+                <div id="queue-song-name">
+                  Savage
+                  <div id="qo">Rose Lowe</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">03</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa0KsZXs5Cj1VJgAr3W2w4Xkd80kr6fwirNPOX526JpRp5wXLbldCn82kQxn1YL9OmjXs&usqp=CAU"
+                />
+
+                <div id="queue-song-name">
+                  Heya
+                  <div id="qo">Flume</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">
+                  <ion-icon name="stats-chart"></ion-icon>
+                </div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Imagine_Dragons_Next_to_Me.jpg/220px-Imagine_Dragons_Next_to_Me.jpg"
+                />
+
+                <div id="queue-song-name">
+                  Imagine
+                  <div id="qo">John Lennon</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">01</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/dlj7qr05cfjsknaglrhf/covers-better-original-jimi-hendrix"
+                />
+
+                <div id="queue-song-name">
+                  Mirage
+                  <div id="qo">Else</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">02</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://i.tribune.com.pk/media/images/647803-music-1387469249/647803-music-1387469249.jpg"
+                />
+
+                <div id="queue-song-name">
+                  Savage
+                  <div id="qo">Rose Lowe</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">03</div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa0KsZXs5Cj1VJgAr3W2w4Xkd80kr6fwirNPOX526JpRp5wXLbldCn82kQxn1YL9OmjXs&usqp=CAU"
+                />
+
+                <div id="queue-song-name">
+                  Heya
+                  <div id="qo">Flume</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="q1">
+              <div id="queue-song-img">
+                <div id="q-order">
+                  <ion-icon name="stats-chart"></ion-icon>
+                </div>
+                <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Imagine_Dragons_Next_to_Me.jpg/220px-Imagine_Dragons_Next_to_Me.jpg"
+                />
+
+                <div id="queue-song-name">
+                  Imagine
+                  <div id="qo">John Lennon</div>
+                </div>
+              </div>
+
+              <div id="qlike">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="play-bar">
+        <div id="playing-song-img">
+          <!-- <img src="https://pixabay.com/images/id-5056684/"> -->
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Imagine_Dragons_Next_to_Me.jpg/220px-Imagine_Dragons_Next_to_Me.jpg"
+          />
+
+          <div id="playing-song-name">
+            Imagine
+
+            <div id="so">John Lennon</div>
+          </div>
+
+          <div id="reaction">
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="ban-outline"></ion-icon>
+          </div>
+        </div>
+
+        <div id="footer-center">
+          <div id="play-pause">
+            <ion-icon name="shuffle-outline"></ion-icon>
+            <ion-icon name="play-skip-back-circle-outline"></ion-icon>
+            <div id="b"><ion-icon name="pause-circle-outline"></ion-icon></div>
+            <ion-icon name="play-skip-forward-circle-outline"></ion-icon>
+            <ion-icon name="repeat-outline"></ion-icon>
+          </div>
+
+          <div id="slidecontainer">
+            <div id="t1">1:02</div>
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="25"
+              class="slider"
+              id="myRange"
+            />
+            <div id="t2">4:44</div>
+          </div>
+        </div>
+
+        <div id="footer-right">
+          <ion-icon name="list-outline"></ion-icon>
+          <ion-icon name="link-outline"></ion-icon>
+          <ion-icon name="volume-medium-outline"></ion-icon>
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="50"
+            class="slid"
+            id="myRs"
+          />
+          <ion-icon name="expand-outline"></ion-icon>
+        </div>
+      </footer>
+    </div>
 
     <script
       type="module"

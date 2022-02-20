@@ -1,21 +1,24 @@
 body {
   height: 100vh;
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin: 0px;
 }
 
 .nav-bar {
   height: 80px;
   width: 100%;
-  background-color: black;
+  /* background-color: black; */
+  background-color: rgb(74, 51, 78);
   display: flex;
   flex-direction: row;
   /*align-content: space-between;*/
   align-items: center;
   /*flex-wrap: wrap;*/
   justify-content: space-between;
+  position: fixed;
+  top: 0;
   /*justify-content: space-around;*/
-  padding: 0px 10px;
+  /*padding: 0px 10px;*/
 }
 #logo-img {
   height: 50px;
@@ -54,32 +57,37 @@ body {
 }
 
 #search-icon {
-  height: 60%;
+  height: 30px;
   width: 40%;
-  /*color: white;*/
+  border-radius: 20px;
+  /* color: black; */
+  background-color: white;
   display: flex;
   /*justify-content: space-between 1px ;*/
   /*justify-content: space-around;*/
-  margin-top: 20px;
-  margin-left: 50px;
+  /* margin-top: 20px;
+  margin-left: 50px; */
 }
 #search-icon ion-icon {
-  height: 50%;
-  width: 30%;
-  color: white;
+  height: 30px;
+  width: 30px;
+  padding: 0px 10px 0px 0px;
+  color: black;
 }
 #search-bar {
-  height: 40%;
+  height: 100%;
   width: 120%;
   border-radius: 20px;
   background-color: white;
   outline: none;
+  border: none;
+  padding: 0px 5px;
   /*margin-left: 200px;
 	margin-top: 20px;*/
 }
-ion-icon {
-  height: 10%;
-  width: 10%;
+.notification-bell {
+  height: 20px;
+  width: 20px;
   color: white;
 }
 
@@ -103,17 +111,17 @@ ion-icon {
 .play-bar {
   /*height: 20%;*/
   /*display: block;*/
-  position: fixed;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
   background-color: black;
   display: flex;
   flex-direction: row;
-  /* align-content: space-between; */
-  /*align-items: center;*/
+  position: fixed;
+  /*  align-content: space-between; 
+  align-items: center;*/
   /*flex-wrap: wrap;*/
-  /* justify-content: space-between; */
-  /*justify-content: space-around;*/
+  justify-content: space-between;
+  /* justify-content: space-around; */
   padding: 0px 10px;
 }
 #playing-song-img {
@@ -148,8 +156,421 @@ ion-icon {
 }
 
 /* Reactions */
+#reaction {
+  display: flex;
+  padding: 15px;
+  margin-left: -20px;
+}
 
 #reaction ion-icon {
-  width: 50px;
+  width: 13px;
+  height: 13px;
+  padding: 2px;
+  color: white;
+  opacity: 0.8;
+}
+/*FOOTER CENTER*/
+#footer-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  /* margin-left: 400px;
+  margin-right: 200px; */
+}
+
+#play-pause {
+  display: flex;
+  /*padding: 15px;
+*/ /* margin-left: -20px;*/
+}
+
+#play-pause ion-icon {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  color: grey;
+}
+
+#b ion-icon {
+  width: 35px;
+  height: 35px;
+  padding: 0.5px;
+  color: white;
+}
+#slidecontainer {
+  display: flex;
+}
+
+.slider {
+  /*appearance: none;*/
+  padding: 2px;
+  width: 15rem;
+  height: 3px;
+  background: #d3d3d3;
+  /* outline: none; */
+  opacity: 0.5;
+}
+
+#t1 {
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+#t2 {
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+/*FOOTER RIGHT*/
+
+#footer-right {
+  display: flex;
+  padding: 8px;
+  /* margin-left: 200px; */
+}
+#footer-right ion-icon {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  color: grey;
+}
+.slid {
+  /*appearance: none;*/
+  padding: 5px;
+  width: 70%;
+  height: 20px;
+  background: #d3d3d3;
+  /* outline: none; */
+  opacity: 0.5;
+}
+
+/* MAIN */
+.main {
+  background-color: rgb(28, 9, 32);
+  display: flex;
+  flex-direction: row;
+  padding: 100px 0;
+  /* overflow: scroll; */
+}
+.main-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* PART 1 */
+.v1 {
+  height: 200px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+.v1 img {
+  height: 170px;
+  width: 400px;
+}
+.v1 img:hover {
+  height: 270px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.527);
+  width: 700px;
+  transition: 0.1s ease-in;
+}
+
+/*PART 2*/
+
+.v2 {
+  height: 300px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.latest-releases {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+}
+.v21 {
+  display: flex;
+  flex-direction: row;
+}
+.v21 img {
+  height: 80px;
+  width: 80px;
+}
+.v21-name {
+  height: 10px;
+  width: 150px;
+  font-size: 15px;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.v21 ion-icon {
+  width: 13px;
+  height: 13px;
+  color: whitesmoke;
+  margin-left: 20px;
+}
+
+.ro {
+  height: 20px;
+  width: 200px;
+  font-size: 10px;
+  color: grey;
+}
+.ro > span {
+  height: 20px;
+  width: 200px;
+  font-size: 10px;
+  color: white;
+  margin-left: 100px;
+}
+
+/*PART 3*/
+.v3 {
+  /* height: 200px;
+  width: 500px; */
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.popular-artists {
+  /* height: 100px; */
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.v31 {
+  height: 150px;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+/* .v31 {
+  display: flex;
+  flex-direction: row;
+} */
+.v31 img {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+}
+.v3-name {
+  /* height: 10px;
+  width: 150px; */
+  font-size: 15px;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  text-align: center;
+  height: fit-content;
+  width: max-content;
+}
+
+/* PART 4 */
+.v4 {
+  height: 120px;
+  width: 750px;
+  background-color: rgb(30, 19, 41);
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+  justify-content: space-between;
+  margin-top: 0%;
+}
+#v41 img {
+  height: 90px;
+  width: 160px;
+  padding: 15px;
+}
+#v41 img:hover {
+  height: 100px;
+  width: 170px;
+  padding: 15px;
+}
+.v42 img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.v42 img:hover {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  /* padding: 10px; */
+}
+
+/* PART 5 */
+.v5 {
+  height: 120px;
+  width: 750px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-left: 50px;
+}
+.v5 img {
+  height: 120px;
+  width: 250px;
+  padding: 10px;
+}
+.v5 img:hover {
+  height: 150px;
+  width: 300px;
+}
+
+/* PART 6 */
+.v6 {
+  /* height: 200px;
+  width: 500px; */
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.latest-english {
+  /* height: 100px; */
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+.v61 {
+  /* height: 150px; */
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+.v61 img {
+  height: 110px;
+  width: 100px;
+  margin-bottom: 4px;
+}
+.v6-name {
+  /* height: 10px;
+  width: 150px; */
+  font-size: 13px;
+  color: white;
+  font-family: sans-serif;
+  /* margin-top: 10px; */
+  /* padding: 0; */
+  /* margin: 10px; */
+  text-align: center;
+  height: fit-content;
+  width: max-content;
+  margin: 0;
+}
+.v6-date {
+  font-size: 8px;
+  color: rgb(117, 109, 109);
+  font-family: sans-serif;
+  padding: 2px;
+  text-align: center;
+  height: fit-content;
+  width: max-content;
+}
+
+/* QUEUE */
+.main-2 {
+  direction: flex;
+  flex-direction: column;
+}
+#queue-dropdown {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#dropdown-1 {
+  background-color: rgb(30, 19, 41);
+  /* color: rgb(30, 19, 41); */
+  color: green;
+}
+/* QUEUE SONGS */
+.queue {
+  display: flex;
+  flex-direction: column;
+}
+.q1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#queue-song-img {
   height: 50px;
+  width: 100px;
+  padding: 12px;
+  margin-left: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+#q-order {
+  font-size: 15px;
+  color: rgb(134, 121, 121);
+  font-family: sans-serif;
+  padding: 10px;
+}
+#q-order ion-icon {
+  font-size: 15px;
+  color: rgb(11, 104, 39);
+  font-family: sans-serif;
+  /* padding: 10px; */
+}
+#queue-song-img img {
+  height: 60px;
+  width: 60px;
+}
+#queue-song-name {
+  height: 30px;
+  width: 80px;
+  font-size: 15px;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#qo {
+  height: 20px;
+  width: 60px;
+  font-size: 9px;
+  color: grey;
+}
+
+#qlike {
+  padding: 25px;
+  margin-left: -20px;
+}
+
+#qlike ion-icon {
+  width: 17px;
+  height: 17px;
+  padding: 2px;
+  color: white;
+  opacity: 0.8;
+}
+.queue {
+}
+/* Common */
+.subtitle-text {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
 }
